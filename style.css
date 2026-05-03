@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #0a0000, #1a0000);
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background: black;
+}
+
+.logo {
+    color: red;
+    text-shadow: 0 0 10px red;
+}
+
+.menu {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Hero */
+.hero {
+    padding: 40px 20px;
+}
+
+.status {
+    border: 1px solid red;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.hero span {
+    color: red;
+    text-shadow: 0 0 20px red;
+}
+
+.desc {
+    color: #ccc;
+    max-width: 400px;
+}
+
+/* Buttons */
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    background: red;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+.btn-outline {
+    border: 1px solid red;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Skills */
+.skills {
+    padding: 40px 20px;
+}
+
+.skills h2 {
+    color: red;
+}
+
+.card {
+    background: #111;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
